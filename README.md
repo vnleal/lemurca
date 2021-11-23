@@ -1,2 +1,2 @@
 # lemurca
-tarea infografia
+
