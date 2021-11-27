@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#878787;stroke-width:0.509;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#878787;stroke-width:0.509;stroke-miterlimit:10;stroke-dasharray:5.2763,5.2763;}
-	.st2{fill:none;stroke:#878787;stroke-width:0.509;stroke-miterlimit:10;stroke-dasharray:4.9738,4.9738;}
+	.st2{fill:none;stroke:#878787;stroke-width:0.9;stroke-miterlimit:10;stroke-dasharray:4.9738,4.9738;}
 	.st3{fill:none;stroke:#878787;stroke-width:0.509;stroke-miterlimit:10;stroke-dasharray:5.0139,5.0139;}
 	.st4{fill:#72A355;}
 	.st5{fill:#FFFFFF;}
@@ -295,8 +295,8 @@
 				<text transform="matrix(0.9839 0 0 1 360 340)" class="st6 st2 st7">Bambú menor</text>
 				<text transform="matrix(0.9839 0 0 1 505 320)" class="st6 st2 st7">Lemur de</text>
 					<text transform="matrix(0.9839 0 0 1 495 340)" class="st6 st2 st7">Bambú mayor</text>
-					<text transform="matrix(0.9839 0 0 1 650 320)" class="st6 st2 st7">Lemur de</text>
-						<text transform="matrix(0.9839 0 0 1 640 340)" class="st6 st2 st7">cola anillada</text>
+					<text transform="matrix(0.9839 0 0 1 640 320)" class="st6 st16 st7">Lemur de</text>
+						<text transform="matrix(0.9839 0 0 1 635 340)" class="st6 st16 st7">cola anillada</text>
 			<text transform="matrix(0.9839 0 0 1 800 320)" class="st6 st2 st7">Lemur Rufo</text>
 
 		</g>
