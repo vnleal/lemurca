@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:"Roboto", sans-serif}
+	.st1{font-size:12px;}
+	.st2{font-family:'Roboto-Regular';}
+	.st3{font-size:18px;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="2000" height="2000" xlink:href="LemurIlustraciónDigital.png"  transform="matrix(0.5 0 0 0.5 0 0)">
+</image>
+<g id="su_lomo">
+	<text transform="matrix(1 0 0 1 421.0896 88.5117)" class="st0 st1">             </text>
+	<text transform="matrix(1 0 0 1 421.0896 88.5117)" class="st2 st3">Un color pardo rojizo</text>
+	<text transform="matrix(1 0 0 1 586.5964 88.5117)" class="st0 st1">             </text>
+	<text transform="matrix(1 0 0 1 460.4896 110.1117)" class="st2 st3">en el lomo</text>
+	<text transform="matrix(1 0 0 1 543.4496 110.1117)" class="st0 st1">         </text>
+	<line class="st4" x1="500" y1="152" x2="500" y2="300"/>
+</g>
+<g id="su_vientre">
+	<text transform="matrix(1 0 0 1 57.9406 732.9189)" class="st0 st1">             </text>
+	<text transform="matrix(1 0 0 1 57.9406 732.9189)" class="st2 st3">Líneas transversales</text>
+	<text transform="matrix(1 0 0 1 222.1818 732.9189)" class="st0 st1">             </text>
+	<text transform="matrix(1 0 0 1 57.9406 754.5189)" class="st2 st3">blancas y negras en</text>
+	<text transform="matrix(1 0 0 1 216.3547 754.5189)" class="st0 st1">             </text>
+	<text transform="matrix(1 0 0 1 57.9406 776.1189)" class="st2 st3">su vientre</text>
+	<text transform="matrix(1 0 0 1 135.4953 776.1189)" class="st0 st1">         </text>
+	<polyline class="st4" points="500,641 500,749 241.5,749 	"/>
+</g>
+<text transform="matrix(1 0 0 1 760.9406 612.9189)" class="st0 st1">             </text>
+<g>
+	<polyline class="st4" points="695,347 695,615 743.5,615 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 760.7707 597.9189)" class="st2 st3">Un anaranjado rojizo</text>
+		<text transform="matrix(1 0 0 1 918.8976 612.9189)"><tspan x="0" y="0" class="st0 st1">          </tspan><tspan x="0" y="14.4" class="st0 st1">   </tspan></text>
+		<text transform="matrix(1 0 0 1 898.7707 634.5189)" class="st0 st1">         </text>
+		<text transform="matrix(1 0 0 1 760.7705 621.7603)" class="st2 st3">en su pecho y alrededor</text>
+		<text transform="matrix(1 0 0 1 760.7707 645.6016)" class="st2 st3">de sus ojos</text>
+	</g>
+</g>
+</svg>
