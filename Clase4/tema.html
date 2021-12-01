@@ -1,0 +1,69 @@
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <title>¡Hola variables!</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mx-auto">
+        <h1>Construyamos algunas cosas a continuación, con:</h1>
+      <ul id="listado"></ul>
+        <p id="favoritismo">Yo prefiero a </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid g-0">
+  <img src="https://picsum.photos/1000/300?random=1">
+  </div>
+        <script>
+            var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson", "Solo Aca", "Nada Mas"];
+            var f = {
+                mom: "Luann Van Houten",
+                dad: "Kirk Van Houten",
+                child: "Milhouse Van Houten",
+            };
+            var g = {
+                mom: "Marge Simpson",
+                dad: "Homer Simpson",
+                children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"],
+            };
+            var h = [
+                {
+                    mom: "Luann",
+                    dad: "Kirk",
+                    children: ["Milhouse"],
+                },
+                {
+                    mom: "Marge",
+                    dad: "Homer",
+                    children: ["Bart", "Lisa", "Maggie"],
+                },
+                {
+                    mom: "Manjula",
+                    dad: "Apu",
+                    children: ["Poonam", "Sashi", "Pria", "Uma", "Anoop", "Sandeep", "Nabendu", "Gheet"],
+                },
+            ];
+            e.forEach((x) => {
+              if (x == "Maggie Simpson"){
+
+              document.querySelector("#listado").innerHTML += "<li class='text-danger'>" + x + "</li>";
+
+              }
+
+              else {
+
+              document.querySelector("#listado").innerHTML += "<li>" + x + "</li>";
+
+            }
+
+            });
+            document.querySelector("#favoritismo").insertAdjacentHTML("beforeend", g.children[2]);
+        </script>
+    </body>
+</html>
