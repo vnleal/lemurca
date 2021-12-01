@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Select y JavaScript</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 mx-auto">
+                    <!--este es un grupo-->
+                    <div class="input-group input-group-sm my-5">
+                        <label class="input-group-text">Escoge</label>
+                        <select id="selector" class="form-select">
+                            <option value="lisa">Lisa Marie Simpson</option>
+                            <option value="bart">Bartholomew J. Simpsons</option>
+                            <option value="maggie">Margaret Simpsons</option>
+                            <option value="marge">Marjorie Jacqueline Simpson</option>
+                            <option value="homer">Homer Jay Simpson</option>
+                        </select>
+                    </div>
+                    <!--esto es para centrarlo-->
+                    <div class="text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="w-50">
+                            <polygon fill="#ffc107" points="50,7.2 63.9,35.4 95,39.9 72.5,61.8 77.8,92.8 50,78.1 22.2,92.8 27.5,61.8 5,39.9 36.1,35.4   " />
+                            <g id="seleccion"></g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const selector = document.getElementById("selector");
+            const seleccion = document.getElementById("seleccion");
+            var seleccionado;
+            selector.onchange = function () {
+                seleccionado = selector.value;
+                console.log(seleccionado);
+                seleccion.innerHTML = '<image style="overflow:visible;" width="100" height="100" xlink:href="graphics/' + seleccionado + '.svg"  transform="matrix(0.5 0 0 0.5 25 25)"></image>';
+            };
+            selector.onchange();
+        </script>
+    </body>
+</html>
